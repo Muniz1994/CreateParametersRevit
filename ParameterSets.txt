@@ -1,0 +1,44 @@
+PropertySet:	PGName	I	IfcBuilding
+	BuildingNumber	Text	BuildingNumber
+	CityName	Text	CityName
+	Country	Text	Country
+	Parentlocation	Text	ParentLocation
+	PostalZone	Text	PostalZone
+	StreetName	Text	StreetName
+
+PropertySet:	PGName	I	IfcSpace
+	Barcode	Text	Barcode
+	Company	Text	Company
+	Description	Text	Description
+	Keyword	Text	Keyword
+	Latitud	Text	Latitud
+	LocationKey	Text	LocationKey
+	Longitud	Text	Longitud
+	Mobile	Text	Mobile
+	OnServiceDate	Text	OnServiceDate
+	Remarks	Text	Remarks
+	Telephone	Text	Telephone
+
+PropertySet:	Pset_Warranty	I	IfcDistributionElement
+	WarrantyStartDate	Text	WarrantyStartDate
+	WarrantyEndDate	Text	WarrantyEndDate
+
+PropertySet:	Pset_ManufacturerOccurrence	I	IfcDistributionElement
+	BarCode	Integer	BarCode
+	SerialNumber	Text	SerialNumber
+	AcquisitionDate	Text	AcquisitionDate	
+
+PropertySet:	PGName	I	IfcDistributionElement
+	Company	Text	Company
+	Description	Text	Description	
+	EquipmentKey	Text	EquipmentKey
+	IsTool	Text	IsTool
+	Keyword	Text	Keyword
+	OnServiceDate	Text	OnServiceDate
+	PurchasePrice	Text	PurchasePrice
+	Remarks	Text	Remarks
+	WarrantyExtensionEndDate	Text	WarrantyExtensionEndDate
+	WorkingTime	Text	WorkingTime
+	
+
+
